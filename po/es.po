@@ -2375,10 +2375,10 @@ msgstr "Los campos marcados con {val} son obligatorios."
 
 #. [pages.blueprint.devicePopover]
 #. defaultMessage is:
-#. The installation device is used by the RHEL for Edge Simplified Installer. It specifies which device the image will be installed onto.
+#. The installation device is used by the RHEL for Edge Simplified Provisioning. It specifies which device the image will be installed onto.
 #: build/messages/pages/blueprint/index.json
 msgid ""
-"The installation device is used by the RHEL for Edge Simplified Installer. "
+"The installation device is used by the RHEL for Edge Simplified Provisioning. "
 "It specifies which device the image will be installed onto."
 msgstr ""
 

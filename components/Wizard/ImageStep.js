@@ -804,7 +804,7 @@ class ImageStep extends React.PureComponent {
           {(imageType === "edge-installer" ||
             imageType === "rhel-edge-installer" ||
             imageType === "edge-raw-image" ||
-            imageType === "edge-simplified-installer") &&
+            imageType === "edge-simplified-provisioning") &&
             ostreeInstallerRawFields}
         </Form>
       </>

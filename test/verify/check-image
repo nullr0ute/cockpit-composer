@@ -747,7 +747,7 @@ class TestImage(composerlib.ComposerCase):
         self.check_coverage()
 
     # Currently only supported on rhel-8-6
-    @unittest.skipIf(os.environ.get("TEST_OS") != "rhel-8-6", "Does not support edge-simplified-installer image type")
+    @unittest.skipIf(os.environ.get("TEST_OS") != "rhel-8-6", "Does not support edge-simplified-provisioning image type")
     def testEdgeSimplifiedInstaller(self):
         b = self.browser
 
@@ -758,7 +758,7 @@ class TestImage(composerlib.ComposerCase):
         b.click("li[data-blueprint=httpd-server] #create-image-button")
         b.wait_text("#create-image-upload-wizard #blueprint-name", "httpd-server")
         b.wait_js_cond('ph_select("#image-type option").length > 1')
-        b.set_val("#image-type", "edge-simplified-installer")
+        b.set_val("#image-type", "edge-simplified-provisioning")
         # check url help button
         b.click("button[aria-label='OSTree repo url help']")
         b.text(".pf-c-popover__body")

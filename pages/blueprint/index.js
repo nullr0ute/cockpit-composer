@@ -125,7 +125,7 @@ const messages = defineMessages({
   },
   devicePopover: {
     defaultMessage:
-      "The installation device is used by the RHEL for Edge Simplified Installer. It specifies which device the image will be installed onto.",
+      "The installation device is used by the RHEL for Edge Simplified Provisioning. It specifies which device the image will be installed onto.",
   },
   devicePopoverLabel: {
     defaultMessage: "Installation device help",
